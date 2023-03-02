@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.App{
+  text-align: center;
+  
+}
+
+.container {
+  color: aqua;
+  font-weight: 600;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+input{
+  padding: 5px;
+  color: gray;
+  border: none;
+  border-radius: 10px;
+  margin: 5px;
+}
+
+button{
+  margin: 10px;
+  background: gray;
+  padding: 5px;
+  width: 10rem;
+  border-radius: 2rem;
+}
+select{
+  color: gray;
+  margin: 5px;
+  padding: 5px;
+}
+button:hover{
+  color: rgb(104, 241, 104);
+}
+
+table{
+  border: 1px solid red;
+}
+
+.crud{
+  padding: 0 10px;
+  cursor: pointer;
+  font-weight: bolder;
+}
+.crud:hover{
+  color: chocolate;
+}
+
+nav{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 40px;
+  padding-right: 40px;
+}
